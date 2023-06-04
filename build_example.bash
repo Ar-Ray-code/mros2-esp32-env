@@ -3,7 +3,7 @@ SCRIPT_DIR=$(cd $(dirname $0); pwd)
 PORT=${1:-/dev/ttyUSB0}
 MROS2_DIR=${2:-${SCRIPT_DIR}/mros2-esp32}
 WORKSPACE=${3:-${SCRIPT_DIR}/example/}
-TARGET=${4:-esp32s3}
+TARGET=${4:-esp32}
 
 echo "====================="
 echo "PORT: ${PORT}"
