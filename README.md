@@ -32,7 +32,7 @@ mros2-esp32の環境構築資料。
 ```bash
 git clone https://github.com/Ar-Ray-code/mros2-esp32-env
 cd mros2-esp32-env
-bash build_example.bash <target-port> <mros2-esp32のパス> <プロジェクトのパス>
+bash build_example.bash <target-port> <mros2-esp32のパス> <プロジェクトのパス> <対象ボード（esp32s3など）>
 ```
 
 <br>
